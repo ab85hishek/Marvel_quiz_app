@@ -60,6 +60,51 @@ class _MyAppState extends State<MyApp> {
        {'text':'\"I WANT YOU BACK\,\" THE JACKSON 5', 'score':10},
        ],
     },
+    {
+      'questionText': 'What name did Black Widow use when first introduced to Tony Stark in Iron Man 2?',
+      'answers': [
+       {'text':'Natalia Romanoff', 'score':0},
+       {'text':'Natalie Russell', 'score':0}, 
+       {'text':'Natalia Roman', 'score':0},
+       {'text':'Natalie Rushman', 'score':10},
+       ],
+    },
+    {
+      'questionText': 'In how many Marvel Studios films does Agent Coulson appear?',
+      'answers': [
+       {'text':'4', 'score':0},
+       {'text':'6', 'score':0}, 
+       {'text':'2', 'score':0},
+       {'text':'5', 'score':10},
+       ],
+    },
+    {
+      'questionText': 'When did Howard Stark die?',
+      'answers': [
+       {'text':'December 16, 1991', 'score':10},
+       {'text':'January 12, 1991', 'score':0}, 
+       {'text':'March 31, 1991', 'score':0},
+       {'text':'May 3, 1991', 'score':0},
+       ],
+    },
+    {
+      'questionText': 'Who is Thanos’s father?',
+      'answers': [
+       {'text':'Ziran the Tester', 'score':0},
+       {'text':'Zuras', 'score':0}, 
+       {'text':'A\’Lars', 'score':10},
+       {'text':'Valkin', 'score':0},
+       ],
+    },
+    {
+      'questionText': 'True or False: The Infinity Gauntlet makes a cameo appearance in Thor?',
+      'answers': [
+       {'text':'True', 'score':10},
+       {'text':'False', 'score':0}, 
+       
+       ],
+    },
+
   ];
   var _totalScore =0;
 
