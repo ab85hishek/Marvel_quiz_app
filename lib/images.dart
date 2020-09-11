@@ -6,13 +6,13 @@ class ShowImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(0) ,
+      margin: EdgeInsets.all(0),
       child: Image(
         image: NetworkImage(imageAddress),
         alignment: Alignment.center,
         width: double.infinity,
         height: 300,
-        
+        fit: BoxFit.fitHeight,
       ),
     );
   }
